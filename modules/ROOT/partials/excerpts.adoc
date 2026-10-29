@@ -31,13 +31,7 @@ WARNING: Не рекомендуется использовать учётные
 // end::system-accounts[]
 
 // tag::winconfig[]
-Для модуля {pl} версии {pl-cu-mc} настройки из данного раздела выполняются в конфигурационном файле {wincl}а, расположенном по адресу `/usr/lib/docsvision/platform/config/windows-client-part.json` для Linux или `C:\Program Files\Docsvision\Platform\config\windows-client-part.json` для Windows,
-ifdef::server-cache[]
-в секции `"DocsVision" > "Platform" > "Server"`.
-endif::server-cache[]
-ifndef::server-cache[]
-в секции `"Site"`.
-endif::server-cache[]
+Для модуля {pl} версии {pl-cu-mc} настройки из данного раздела выполняются в конфигурационном файле {wincl}а, расположенном по адресу `/usr/lib/docsvision/platform/config/windows-client-part.json` для Linux или `C:\Program Files\Docsvision\Platform\config\windows-client-part.json` для Windows, в секции `"DocsVision" > "Platform" > "Server"`.
 // end::winconfig[]
 
 // tag::pangolinagent[]
