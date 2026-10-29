@@ -22,9 +22,9 @@ include::dv6@install-linux:ROOT:partial$excerpts.adoc[tags=winlist]
 * {net-r}.
 * {blank}
 +
+--
 include::dv6@engineer:ROOT:partial$excerpts.adoc[tags=dll]
-+
-NOTE: Библиотека `CryptoPro.Security.Cryptography.dll` из состава КриптоПро .NET LibCore требуется для входа через ЕСИА, вычисления хэша подписываемого файла на сервере {wc}а и подписания через модуль интеграции с УЦ Контур. Если эти функции не используются, устанавливать библиотеку и приобретать лицензию КриптоПро .NET не требуется.
+--
 
 [#client]
 == Требования клиентской части системы
